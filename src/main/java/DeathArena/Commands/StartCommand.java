@@ -19,7 +19,6 @@ public class StartCommand implements CommandExecutor {
 
     public HashMap<UUID, Long> players = new HashMap<UUID, Long>();
 
-    @Override
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String args[]) {
 
 

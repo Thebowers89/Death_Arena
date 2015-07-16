@@ -18,7 +18,6 @@ public class ConfigureCommand implements CommandExecutor {
 
     public HashMap<Location, Long> locations = new HashMap<Location, Long>();
 
-    @Override
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String args[]) {
         if (sender instanceof Player) {
             if (sender.isOp()) {
