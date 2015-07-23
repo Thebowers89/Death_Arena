@@ -36,9 +36,8 @@ public class ClassSelectorClickListener implements Listener{
 
         switch (event.getCurrentItem().getType()) {
             case DIAMOND_CHESTPLATE:
-                player.sendMessage(ChatColor.RED + "Test Complete");
-                TeleportHandler.teleport(player, player.getWorld(), 10, 70, 10);
-                player.sendMessage(ChatColor.BLUE + "Teleporting...");
+                //Remember to change later
+                TeleportHandler.teleport(player, player.getWorld(), -260, 70, 135);
         }
 
     }

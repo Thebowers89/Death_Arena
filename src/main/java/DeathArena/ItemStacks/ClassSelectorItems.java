@@ -18,8 +18,6 @@ public class ClassSelectorItems {
         tank.setItemMeta(tankMeta);
         tank.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 2);
 
-
         return tank;
     }
-
 }
