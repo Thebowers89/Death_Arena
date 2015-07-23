@@ -9,11 +9,11 @@ import org.bukkit.command.CommandSender;
 import java.util.HashMap;
 import java.util.UUID;
 
-public class StartCommand implements CommandExecutor {
+public class ForceStartCommand implements CommandExecutor {
 
     DeathArenaMain plugin;
 
-    public StartCommand(DeathArenaMain instance) {
+    public ForceStartCommand(DeathArenaMain instance) {
         plugin = instance;
     }
 
